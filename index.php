@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <a href="home.php" class="logo">Agsirb - E</a>
+
+   <nav class="navbar">
+      <a href="home.php">home</a>
+      <a href="about.php">about</a>
+      <a href="resident_login.php">Resident LogIn</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background:url(images/home-slide-1.png) no-repeat">
+            <div class="content">
+               <span>Agsirb-E</span>
+               <h3>  Barangay Services&nbsp;<br>Management System</h3>
+               <a href="about.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(images/home-slide-2.png) no-repeat">
+            <div class="content">
+               <span></span>
+               <h3></h3>
+               <a href="https://www.google.com/maps/place/Catbangen,+San+Fernando,+La+Union/@16.6080847,120.3111184,16z/data=!4m5!3m4!1s0x33918e45c40517bf:0x5651fea108a11f64!8m2!3d16.6066965!4d120.3132792" class="btn">Locate us</a>
+            </div>
+         </div>
+
+        
+         
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <h1 class="heading-title"> For Transparency </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/pdf.png" alt="">
+         <h3><a href="transparency-files.php" class="nav__link">Barangay Transparency Files</a></h3>
+      </div>
+
+
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- home about section starts  -->
+
+<section class="home-about">
+
+   <div class="image">
+      <img src="images/catba.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3>about us</h3>
+      <p>Agsirb-E derived from the iloco word agserbi meaning to serve</p>
+      <a href="about.php" class="btn">read more</a>
+   </div>
+
+</section>
+
+<!-- home about section ends -->
+
+<!-- home packages section starts  -->
+
+<section class="home-packages">
+
+   <h1 class="heading-title"> our Services </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-1.png" alt="">
+         </div>
+         <div class="content">
+            <h3>Barangay Residency Certification</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <a href="book.php" class="btn">Schedule now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-2.png" alt="">
+         </div>
+         <div class="content">
+            <h3>Barangay Indigency Certification</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <a href="book.php" class="btn">Schedule now</a>
+         </div>
+      </div>
+      
+      <div class="box">
+         <div class="image">
+            <img src="images/img-3.png" alt="">
+         </div>
+         <div class="content">
+            <h3>Business Clearance Certification</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <a href="book.php" class="btn">Schedule now</a>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
+
+</section>
+
+<!-- home packages section ends -->
+
+<!-- home offer section starts  -->
+
+<section class="home-offer">
+   <div class="content">
+      <h3>Services</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
+      <a href="login2.php" class="btn">book now</a>
+   </div>
+</section>
+
+<!-- home offer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "106601702263530");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="index.php"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="resident_login.php"> <i class="fas fa-angle-right"></i> Resident Log In</a>
+         <a href="admin_login.php"> <i class="fas fa-angle-right"></i> Brgy. Admin Log In</a>
+         <a href="superadmin/login.php"> <i class="fas fa-angle-right"></i> City Log In</a>
+      </div>
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +6390-202-5050 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> admin@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> City of San Fernando, La Union </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Team Agsirb-E</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
